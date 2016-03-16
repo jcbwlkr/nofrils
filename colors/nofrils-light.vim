@@ -57,7 +57,6 @@ hi DiffText   	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui
 hi IncSearch  	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi MatchParen 	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi Pmenu      	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
-hi TabLineSel 	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi Visual     	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi WildMenu   	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 " }}}
@@ -77,14 +76,15 @@ hi SpellRare  	 term=underline 	 cterm=underline 	 ctermfg=5 	 ctermbg=NONE 	 gu
 " }}}
 
 " Vim Features {{{
-hi Menu        	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi PmenuSbar   	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi PmenuSel    	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi PmenuThumb  	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi Scrollbar   	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi TabLine     	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi TabLineFill 	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
-hi Tooltip     	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE 	 guibg=NONE
+hi Menu        	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi PmenuSbar   	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi PmenuSel    	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi PmenuThumb  	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi Scrollbar   	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi TabLine     	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=250  	 gui=NONE 	 guifg=#bcbcbc 	 guibg=NONE
+hi TabLineFill 	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=253  	 gui=NONE 	 guifg=#dadada 	 guibg=NONE
+hi TabLineSel  	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi Tooltip     	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
 " }}}
 
 " Syntax Highlighting (or lack there of) {{{
