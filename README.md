@@ -1,3 +1,8 @@
+This is my fork of @robertmeta's theme. All I've changed to date is a few
+tweaks to the `nofrils-light` theme to match my personal preferences.
+
+--------------------------------------------------------------------------------
+
 This is an extremely minimalist vim colorscheme (almost no syntax highlighting).
 
 To use:
