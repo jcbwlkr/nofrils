@@ -53,7 +53,6 @@ hi WarningMsg   	 term=NONE 	 cterm=NONE 	 ctermfg=9    	 ctermbg=15   	 gui=NON
 " }}}
 
 " Reversed {{{
-hi DiffText   	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi IncSearch  	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi MatchParen 	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi Pmenu      	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
@@ -66,6 +65,11 @@ hi DiffAdd    	 term=NONE    	 cterm=NONE    	 ctermfg=15   	 ctermbg=22   	 gui
 hi DiffChange 	 term=NONE    	 cterm=NONE    	 ctermfg=15   	 ctermbg=17   	 gui=NONE    	 guifg=NONE 	 guibg=#00005F
 hi DiffDelete 	 term=NONE    	 cterm=NONE    	 ctermfg=15   	 ctermbg=52   	 gui=NONE    	 guifg=NONE 	 guibg=#5F0000
 hi DiffText   	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
+" }}}
+
+" Git {{{
+hi diffAdded   	 term=NONE 	 cterm=NONE 	 ctermfg=10 	 ctermbg=NONE 	 gui=NONE 	 guifg=#00ff00 	 guibg=NONE
+hi diffRemoved 	 term=NONE 	 cterm=NONE 	 ctermfg=9  	 ctermbg=NONE 	 gui=NONE 	 guifg=#ff0000 	 guibg=NONE
 " }}}
 
 " Spell {{{
