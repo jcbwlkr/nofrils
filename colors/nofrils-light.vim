@@ -29,7 +29,7 @@ hi LineNr       	 term=NONE 	 cterm=NONE 	 ctermfg=8   	 ctermbg=255  	 gui=NONE
 hi NonText      	 term=NONE 	 cterm=NONE 	 ctermfg=248 	 ctermbg=NONE 	 gui=NONE 	 guifg=#A8A8A8 	 guibg=NONE
 hi SignColumn   	 term=NONE 	 cterm=NONE 	 ctermfg=240 	 ctermbg=255  	 gui=NONE 	 guifg=#585858 	 guibg=#E4E4E4
 hi SpecialKey   	 term=NONE 	 cterm=NONE 	 ctermfg=251 	 ctermbg=255  	 gui=NONE 	 guifg=#c6c6c6 	 guibg=#E4E4E4
-hi StatusLineNC 	 term=NONE 	 cterm=NONE 	 ctermfg=0   	 ctermbg=248  	 gui=NONE 	 guifg=#000000 	 guibg=#A8A8A8
+hi StatusLineNC 	 term=NONE 	 cterm=NONE 	 ctermfg=0   	 ctermbg=253  	 gui=NONE 	 guifg=#000000 	 guibg=#dadada
 hi VertSplit    	 term=NONE 	 cterm=NONE 	 ctermfg=0   	 ctermbg=248  	 gui=NONE 	 guifg=#000000 	 guibg=#A8A8A8
 " }}}
 
@@ -46,7 +46,7 @@ hi ModeMsg      	 term=NONE 	 cterm=NONE 	 ctermfg=53   	 ctermbg=NONE 	 gui=NON
 hi MoreMsg      	 term=NONE 	 cterm=NONE 	 ctermfg=53   	 ctermbg=NONE 	 gui=NONE 	 guifg=#5F005F 	 guibg=NONE
 hi Question     	 term=NONE 	 cterm=NONE 	 ctermfg=53   	 ctermbg=NONE 	 gui=NONE 	 guifg=#5F005F 	 guibg=NONE
 hi Search       	 term=NONE 	 cterm=NONE 	 ctermfg=255  	 ctermbg=14   	 gui=NONE 	 guifg=#eeeeee 	 guibg=#00ffff
-hi StatusLine   	 term=NONE 	 cterm=NONE 	 ctermfg=15   	 ctermbg=0    	 gui=NONE 	 guifg=#FFFFFF 	 guibg=#000000
+hi StatusLine   	 term=NONE 	 cterm=NONE 	 ctermfg=253  	 ctermbg=240  	 gui=NONE 	 guifg=#dadada 	 guibg=#585858
 hi Todo         	 term=NONE 	 cterm=bold 	 ctermfg=240  	 ctermbg=NONE 	 gui=bold 	 guifg=#585858 	 guibg=NONE
 hi VisualNOS    	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=53   	 gui=NONE 	 guifg=NONE    	 guibg=#5F005F
 hi WarningMsg   	 term=NONE 	 cterm=NONE 	 ctermfg=9    	 ctermbg=15   	 gui=NONE 	 guifg=#FF5555 	 guibg=#FFFFFF
