@@ -55,7 +55,7 @@ hi WarningMsg   	 term=NONE 	 cterm=NONE 	 ctermfg=9    	 ctermbg=15   	 gui=NON
 " Reversed {{{
 hi IncSearch  	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi MatchParen 	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
-hi Pmenu      	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
+hi Pmenu      	 term=none    	 cterm=none    	 ctermfg=NONE 	 ctermbg=250  	 gui=reverse 	 guifg=NONE 	 guibg=#bcbcbc
 hi Visual     	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 hi WildMenu   	 term=reverse 	 cterm=reverse 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=reverse 	 guifg=NONE 	 guibg=NONE
 " }}}
@@ -82,7 +82,7 @@ hi SpellRare  	 term=underline 	 cterm=underline 	 ctermfg=5 	 ctermbg=NONE 	 gu
 " Vim Features {{{
 hi Menu        	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
 hi PmenuSbar   	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
-hi PmenuSel    	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
+hi PmenuSel    	 term=NONE 	 cterm=NONE 	 ctermfg=255  	 ctermbg=0    	 gui=NONE 	 guifg=#e4e4e4 	 guibg=#000000
 hi PmenuThumb  	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
 hi Scrollbar   	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=NONE 	 gui=NONE 	 guifg=NONE    	 guibg=NONE
 hi TabLine     	 term=NONE 	 cterm=NONE 	 ctermfg=NONE 	 ctermbg=250  	 gui=NONE 	 guifg=#bcbcbc 	 guibg=NONE
